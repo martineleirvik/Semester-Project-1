@@ -5,10 +5,13 @@
      <meta name="description" content="INSERT TEXT HERE">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <script src="https://kit.fontawesome.com/8c6eeba9fa.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="Style/style.css">
     </head>
     <body>
         <header>
-            <h1>Community Science Museum</h1>
+            <img class="logo" src="images/Prøvelogo.PNG" alt="logo">
+            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
             <nav>
                 <ul>
                     <li><a href="Explore.html">Explore</a></li>
@@ -20,12 +23,14 @@
             </nav>
         </header>
        <main>
-           <img clas="Homepageimages" src="images/Bilde1.jpg" alt="INSERT TEXT">
-           <img clas="Homepageimages" src="images/Bilde2.jpg" alt="INSERT TEXT">
-           <img clas="Homepageimages" src="images/Bilde3.jpg" alt="INSERT TEXT">
-           <img clas="Homepageimages" src="images/Bilde4.jpg" alt="INSERT TEXT">
-           <img clas="Homepageimages" src="images/Bilde5.jpg" alt="INSERT TEXT">
-           <img clas="Homepageimages" src="images/Bilde6.jpg" alt="INSERT TEXT">
+           <div class="container">
+             <img class="Homepageimages" src="images/Bilde1.jpg" alt="INSERT TEXT">
+             <img class="Homepageimages" src="images/Bilde2.jpg" alt="INSERT TEXT">
+             <img class="Homepageimages" src="images/Bilde3.jpg" alt="INSERT TEXT">
+             <img class="Homepageimages" src="images/Bilde4.jpg" alt="INSERT TEXT">
+             <img class="Homepageimages" src="images/Bilde5.jpg" alt="INSERT TEXT">
+             <img class="Homepageimages" src="images/Bilde6.jpg" alt="INSERT TEXT">
+            </div>
            <h1>Explore together</h1>
            <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.
             Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
@@ -41,7 +46,7 @@
                     <label for="email">Your email adress</label>
                     <input type="email" name="email" id="email" class="form__input">
                 </fieldset>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Sign up">
             </form>
             </div>
             <div class="icons">
