@@ -179,16 +179,11 @@ input[type=submit] {
 .Homepageimages {
     max-width: 100%;
     border: 1px solid #9c9b9b;
-
 }
 
 #frontpagetext {
     padding-bottom: 50px;
 }
-
-
-
-
 
 
 
@@ -278,6 +273,22 @@ input[type=submit] {
 
     .kids {
         
+    }
+
+
+
+    /* get involved */
+
+    .conteiner-1 {
+        display: flex;
+    }
+
+    .box-9 {
+        flex: 3;
+    }
+
+    .box-10 {
+        flex: 1;
     }
 
     
