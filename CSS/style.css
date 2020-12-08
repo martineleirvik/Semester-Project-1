@@ -63,19 +63,20 @@ footer {
 }
 
 h1 {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 20px;
     font-size: 20px;
 }
 
 h2 {
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
     font-size: 15px;
 }
 
 p {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 input[type=submit] {
@@ -113,6 +114,8 @@ input[type=submit] {
 
 
 @media (min-width: 700px) {
+
+
     header {
         text-align: center;
     }
@@ -147,6 +150,23 @@ input[type=submit] {
        
     }
 
+    h1 {
+        padding-left: 50px;
+        padding-top: 20px;
+        font-size: 20px;
+    }
     
+    h2 {
+        padding-left: 50px;
+        padding-top: 20px;
+        font-size: 15px;
+
+    p {
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+   
 
 }
