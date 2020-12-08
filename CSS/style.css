@@ -132,7 +132,7 @@ input[type=submit] {
 
 .box-1, .box-2, .box-3 {
     border: 3px solid #7A7A7A;
-    margin: 60px;
+    margin: 30px;
     box-shadow: 0 0 7px 0.2px #9c9b9b;
     padding-bottom: 20px;
 }
@@ -250,7 +250,18 @@ input[type=submit] {
     }
 
 
+
+
+    /* explore */
+
+    .kids {
+        
+    }
+
     
+
+
+
 
 
 
