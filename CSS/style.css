@@ -110,6 +110,7 @@ input[type=submit] {
 }
 
 
+
 /* visit */
 
 .location {
@@ -122,14 +123,55 @@ input[type=submit] {
 
 
 
-
-
 /* explore */
 
 .kids {
     max-width: 100%;
     margin: 50px 0;
 }
+
+.box-1, .box-2, .box-3 {
+    border: 3px solid #7A7A7A;
+    margin: 60px;
+    box-shadow: 0 0 7px 0.2px #9c9b9b;
+    padding-bottom: 20px;
+}
+
+
+
+/* exhibition spaces */
+
+#readmore {
+    padding-left: 30px;
+    color: #000000;
+}
+
+.box-4, .box-5, .box-6, .box-7, .box-8 {
+    border: 3px solid #7A7A7A;
+    margin: 60px;
+    box-shadow: 0 0 7px 0.2px #9c9b9b;
+    padding-bottom: 20px;
+}
+
+.exhibition {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px 0;
+    
+}
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
@@ -201,6 +243,11 @@ input[type=submit] {
     }
 
 
+    /* exhibition spaces */
+
+    #readmore {
+        padding-left: 50px;
+    }
 
 
     
