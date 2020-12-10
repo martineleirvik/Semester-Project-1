@@ -12,6 +12,7 @@ header{
 .logo {
     max-width: 270px;
     padding-top: 15px;
+    padding-left: 20px;
 }
 
 nav, #hamburger-menu {
@@ -106,6 +107,15 @@ footer {
     font-size: 20px;
 }
 
+input [type="email"] {
+    -webkit-appearance: none!important;
+    text-align: left;
+    width: 60px;
+    border: 1px solid gray;
+    border-left: 0px;
+    margin: 0 0 0 -7px;
+    background: white;
+}
 
 
 
