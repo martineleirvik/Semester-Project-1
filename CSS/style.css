@@ -10,7 +10,7 @@ header{
 }
 
 .logo {
-    max-width: 280px;
+    max-width: 250px;
     padding-top: 15px;
 }
 
@@ -223,6 +223,7 @@ input[type=submit] {
         display: grid;
         grid-gap: 1em;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 30px 50px;
         
     }
 
@@ -247,6 +248,9 @@ input[type=submit] {
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .logo {
+        max-width: 350px;
 
    
 
