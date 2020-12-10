@@ -290,6 +290,10 @@ h3 {
         padding-top: 20px;
         font-size: 15px;
     }
+
+    h3 {
+        padding-left: 50px;
+    }
     
 
     p {
