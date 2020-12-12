@@ -101,7 +101,7 @@ footer {
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 0px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .icons {
@@ -323,6 +323,10 @@ footer {
 
     .icons {
         margin-top: 15px;
+    }
+
+    .sub1 {
+        padding-left: 50px;
     }
 
 
