@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 .current {
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 .hamburger-label {
@@ -97,32 +97,50 @@ footer {
     font-size: 12px;
 }
 
-h3 {
-    font-size: 12px;
-    padding: 15px 0 0 30px;
-}
-
-#footertext {
-    font-size: 12px;
+.subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-top: 10px;
 }
 
 .icons {
-    padding-bottom: 5px;
     font-size: 25px;
+    margin-right: 40px;
+    margin-top: -25px;
     text-align: center;
+}
+
+.icons i {
+    padding-right: 10px;
+
 }
 
 .subscription {
     padding-left: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 #signup {
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 5px 15px;
+    padding: 3px 10px;
+    margin-top: 6px;
+    margin-left: 9px;
 }
+
+
+.sub1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+
+.subtext {
+    padding-top: 10px;
+}
+
 
 
 
@@ -305,6 +323,21 @@ h3 {
         max-width: 350px;
     }
    
+
+
+    /* footer */
+
+    .subscription {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .icons {
+        font-size: 25px;
+        margin-right: 40px;
+        margin-top: 17px;
+    }
+
 
 
     /* index */
