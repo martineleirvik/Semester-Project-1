@@ -23,14 +23,19 @@
             </nav>
         </header>
        <main>
-           <div class="container">
-             <img class="Homepageimages" src="images/Bilde1.jpg" alt="Boy trying to paint through VR.">
-             <img class="Homepageimages" src="images/Bilde2.jpg" alt="Skeleton of a mammoth.">
-             <img class="Homepageimages" src="images/Bilde3.jpg" alt="A display of huge ants.">
-             <img class="Homepageimages" src="images/Bilde4.jpg" alt="Display of the anatomy of the heart.">
-             <img class="Homepageimages" src="images/Bilde5.jpg" alt="Man looking through a microscope.">
-             <img class="Homepageimages" src="images/Bilde6.jpg" alt="Open area in the museum.">
-            </div>
+           <div class="carousel">
+               <button class="carousel-button" id="previous"><</button>
+               <div class="image-carousel">
+                    <img class="Homepageimages" src="images/Bilde1.jpg" alt="Boy trying to paint through VR.">
+                    <img class="Homepageimages" src="images/Bilde2.jpg" alt="Skeleton of a mammoth.">
+                    <img class="Homepageimages" src="images/Bilde3.jpg" alt="A display of huge ants.">
+                    <img class="Homepageimages" src="images/Bilde4.jpg" alt="Display of the anatomy of the heart.">
+                    <img class="Homepageimages" src="images/Bilde5.jpg" alt="Man looking through a microscope.">
+                    <img class="Homepageimages" src="images/Bilde6.jpg" alt="Open area in the museum.">
+                </div>
+                <button class="carousel-button" id="next">></button>
+        </div>
+        <p id="carousel-text">Click to see pictures from the museum.</p>
            <h1>Explore together</h1>
            <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
             <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
@@ -57,5 +62,6 @@
                 </div>
             </div>
        </footer>
+       <script src="js/carousel.js"></script>
     </body>
 </html>

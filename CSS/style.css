@@ -47,6 +47,7 @@ nav a:hover {
 
 .current {
     text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 .hamburger-label {
@@ -223,24 +224,66 @@ footer {
     
 /* index */
 
-.container {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 30px;
-}
-
 .Homepageimages {
     max-width: 100%;
-    border: 1px solid #9c9b9b;
 }
 
 #frontpagetext {
     padding-bottom: 50px;
 }
+
+.carousel {
+    align-items: center;
+    display: flex;
+    margin: 60px auto 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+}
+
+.image-carousel {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.25s;
+}
+
+.image-carousel img {
+    border-radius: 3px;
+}
+
+.carousel-button {
+    background: #000000;
+    border: 0;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+    opacity: 0.5;
+    position: absolute;
+    transition: opacity 0.25s;
+    width: 3rem;
+    z-index: 1;
+}
+
+#previous {
+    left: 5px;
+  }
+  
+#next {
+    right: 5px;
+  }
+
+.carousel-button:hover {
+      opacity: 0.8;
+  }
+
+#carousel-text {
+      text-align: center;
+      margin-bottom: 60px;
+      font-size: 0.9rem;
+  }
 
 
 
