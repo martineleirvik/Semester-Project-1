@@ -5,7 +5,7 @@ const items = [
 
             Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.
             `,
-        image: 'images/Bilde20.jpg',
+        image: 'images/Bilde1.jpg',
         
     },
 
@@ -15,7 +15,7 @@ const items = [
 
         Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.
         `,
-        image: 'images/Bilde21.jpg',
+        image: 'images/Bilde1.jpg',
     },
 
     {
@@ -26,14 +26,14 @@ const items = [
         
         Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.
         `,
-        image: 'images/Bilde22.jpg',
+        image: 'images/Bilde1.jpg',
     },
 
     {
         title: 'Robotics and AI',
         body: `The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.
         `,
-        image: 'images/Bilde23.jpg',
+        image: 'images/Bilde1.jpg',
     },
 
     {
@@ -42,44 +42,40 @@ const items = [
 
         In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future.
         `,
-        image: 'images/Bilde24.jpg',
+        image: 'images/Bilde1.jpg',
     },
 
 ];
 
 const baseUrl = 'http://localhost:5502/';
 
-const contentContainer = document.querySelector('.content-box');
+const contentContainer = document.querySelector(".content-box");
 console.log(contentContainer);
 
-function generateHtml(arrayOfItems) {
-  let html = '';
-  for (var i = 0; i < arrayOfItems.length; i++) {
-    const imageUrl = baseUrl + arrayOfItems[i].image;
-    html += `<div class="box">
-                <div class="b1">
-                          <h2>${arrayOfItems[i].title}</h2>
-                          <p>${arrayOfItems[i].body}</p>
-                          </div>
-                          <div class="b2">
-                          <img class="exhibition" src="${imageUrl}" alt="" />
-                          </div>
-          </div>
-          `;
-  }
-  return html;
-}
+let html = "";
+
+    for (var i = 0; i < items.length; i++) {
+        console.log(items[i]);
+
+        html += `<div class="box">
+                        <h2>${items[i].title}</h2>
+
+                        <p>${items[i].body}</p>
+        
+        </div>
+        `;
+
+    }
+
+    contentContainer.innerHTML = html;
+
 
 const button = document.getElementById('btn-more');
 
-button.addEventListener('click', () => {
-  console.log('Button click');
-  button.setAttribute("disabled", false);
-  contentContainer.innerHTML = generateHtml(items);
-});
+button.addEventListener('click', () =>{
+    console.log('btn vlij')
 
-function init() {
-  contentContainer.innerHTML = generateHtml(items.slice(0, 3));
+
 }
 
-init();
+)
