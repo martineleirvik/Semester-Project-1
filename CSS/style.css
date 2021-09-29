@@ -7,12 +7,24 @@ body {
 header{
     background-color: #8AAFFA;
     min-height: 70px;
+    padding-top: 15px;
+    position: relative;
 }
 
 .logo {
     max-width: 270px;
     padding-top: 15px;
     padding-left: 20px;
+}
+
+.text-logo {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    position: absolute;
+    top: 35px;
+
 }
 
 nav, #hamburger-menu {
@@ -26,10 +38,12 @@ nav ul {
     border-bottom: 1px solid #707070;
     border-top: 1px solid #707070;
     
+    
 }
 
 nav li {
     display: block;
+    
 }
 
 nav a {
@@ -37,6 +51,7 @@ nav a {
     color: #000000;
     padding: 10px 45px;
     display: block;
+    z-index: 100;
     
 }
 
@@ -363,7 +378,13 @@ footer {
     .logo {
         max-width: 350px;
     }
-   
+
+
+    .text-logo {
+        font-size: 1.5rem;
+        position: static;
+    }
+    
 
 
     /* footer */
@@ -379,18 +400,6 @@ footer {
 
     .sub1 {
         padding-left: 50px;
-    }
-
-
-
-    /* index */
-
-    .container {
-        display: grid;
-        grid-gap: 1em;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 30px 50px;
-        
     }
 
 
@@ -416,10 +425,6 @@ footer {
 
 
     /* exhibition spaces */
-
-    #readmore {
-        padding-left: 50px;
-    }
 
     .box {
         display: flex;
