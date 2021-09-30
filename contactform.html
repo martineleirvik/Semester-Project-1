@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Exhibition Spaces</title>
-        <meta name="description" content="We have many different exhibition spaces for different interests. Choose between eighter cosmology, evolution, biology and medicine, robotics and AI or ecology.">
+        <title>Get Involved</title>
+        <meta name="description" content="Get involved with the museums activity. You can eighter support, volunteer or do an internship at the museum.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/8c6eeba9fa.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
         <header>
-            <a href="index.html" class="text-logo"> Community Science Museum</a>
+            <a href="index.html"> <img class="logo" src="images/Prøvelogo.PNG" alt="Community Science logo"></a>
             <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
             <input type="checkbox" id="hamburger-menu">
             <nav>
                 <ul>
                     <li><a href="Explore.html">Explore</a></li>
-                    <li><a class="current" href="Exhibitionspaces.html">Exhibition Spaces</a></li>
+                    <li><a href="Exhibitionspaces.html">Exhibition Spaces</a></li>
                     <li><a href="Spesialevents.html">Special Events and Exhibitions</a></li>
                     <li><a href="Visit.html">Visit</a></li>
-                    <li><a href="Getinvolved.html">Get Involved</a></li>
+                    <li><a class="current" href="Getinvolved.html">Get Involved</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>Exhibition Spaces</h1>
+            <h1>Contact us</h1>
 
-            <div class="content-box"></div>
+
+            <form id ="form" action="form-success.php" method="POST">
+              
+                <div class="fieldset-contact">
+   
+                    <div id="message"></div>
+    
+                    <label for="name">Your name (required)</label>
+                    <input type="text" name="name" id="name" class="form">
+                    <div class="form-error" id="nameerror">Please enter your name</div>
+    
+                    <label for="email">Your email (required)</label>
+                    <input type="email" name="email" id="email" class="form">
+                    <div class="form-error" id="emailerror">Please enter a valid email address</div>
+    
+                    <label for="text">Your message (minimum 10 characters)</label>
+                    <input for="text" name="text" id="text" class="form">
+                    <div class="form-error" id="texterror">Must be at least 10 characters</div>
+    
+                    <input type="submit" value="Submit">
+    
+                </div>
+
+                </form>
+              
+
+
+
             
-                <button id="btn-more">Load more posts</button>
         </main>
         <footer>
             <div class="subscription">
@@ -49,6 +75,5 @@
                   </div>
               </div>
          </footer>
-         <script src="js/showbutton.js"></script>
     </body>
 </html>

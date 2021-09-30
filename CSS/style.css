@@ -52,7 +52,6 @@ nav a {
     padding: 10px 45px;
     display: block;
     z-index: 100;
-    
 }
 
 nav a:hover {
@@ -95,7 +94,7 @@ p {
 }
 
 input[type=submit] {
-    background-color: #36AD7C;
+    background-color: #1346AD;
     padding: 10px 25px;
     border-radius: 13px;
     box-shadow: 0 0 7px 0.2px #9c9b9b;
@@ -111,7 +110,7 @@ input[type=submit] {
 /* footer */
 
 footer {
-    background-color: #FAB470;
+    background-color: #c9c9c9;
     font-size: 12px;
 }
 
@@ -141,8 +140,8 @@ footer {
 }
 
 #signup {
-    padding: 3px 10px;
-    margin-top: 6px;
+    padding: 6px 15px;
+    margin-top: 5px;
     margin-left: 9px;
 }
 
@@ -168,12 +167,40 @@ footer {
     text-align: center;
 }
 
+.button3 button {
+    padding: 10px;
+    color: #000;
+    list-style: none;
+    background-color: #babcc436;
+    box-shadow: 5px 3px 6px 1px #707070;
+}
+
 .museum {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     padding-bottom: 40px;
+}
+
+#form {
+    background-color: #ffffff;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: block;
+    border: 1px solid #888;
+    margin: auto;
+}
+
+.form {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fieldset-contact {
+    padding-left: 45px;
+    padding-top: 30px;
 }
 
 
@@ -233,6 +260,10 @@ footer {
     display: flex;
     justify-content: center;
     margin: 30px auto;
+    font-size: 1rem;
+    border: 1px solid #999696;
+    background-color: #c9c9c9;
+    font-weight: bold;
 }
 
 
