@@ -207,14 +207,24 @@ footer {
 
 /* visit */
 
-.location {
-    max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
+.map-responsive{
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
     display: block;
-    padding-bottom: 40px;
-}
+    margin: 30px auto 70px auto;
+    
+}       
 
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    display: block;
+    margin: 0 auto; 
+}
 
 
 /* explore */
@@ -445,18 +455,22 @@ footer {
 
     /* visit */
 
-    .location {
-        max-width: 60%;
-    }
-
     .visittext {
         max-width: 900px;
     }
 
+    .map-responsive {
+        margin: 30px auto 70px 50px;
+    }
+
+    .map-responsive iframe{
+        height:70%;
+        width:70%;
+    }
 
 
     /* exhibition spaces */
-
+ 
     .box {
         display: flex;
         margin: 50px;
