@@ -37,7 +37,7 @@ const items = [
 
 ];
 
-const baseUrl = 'http://localhost:5502/';
+const baseUrl = 'http://localhost:5500/';
 
 const contentContainer = document.querySelector('.content-box');
 console.log(contentContainer);
